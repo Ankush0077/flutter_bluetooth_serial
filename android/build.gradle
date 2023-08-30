@@ -18,7 +18,7 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
-    namespace 'com.bluetoothserial.library'
+    namespace 'com.flutterbluetoothserial.library'
     compileSdkVersion 33
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_20
