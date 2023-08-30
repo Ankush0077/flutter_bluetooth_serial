@@ -24,9 +24,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_20
         targetCompatibility JavaVersion.VERSION_20
     }
-    kotlinOptions {
-        jvmTarget = '20'
-    }
     defaultConfig {
         minSdkVersion 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
